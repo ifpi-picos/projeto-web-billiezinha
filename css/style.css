@@ -102,28 +102,6 @@ body {
     background-color: #7e5c3f;
 }
 
-.guitar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url("../img/guitar.webp") center/cover;
-    height: 700px;
-    width: 100%;
-}
-
-.tituloguitar {
-    margin-top: 30px;
-    display: flex;
-    justify-content: flex-end;
-    height: 160px;
-}
-
-.mscgs {
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    align-items: center;
-}
 
 
 .animacao {
@@ -222,24 +200,15 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .titulo, .dont, .when, .happier, .guitar, .Clipes {
+    .titulo, .dont, .when, .happier, .Clipes {
         height: auto;
         background-position: top;
     }
 
-    .textotitulo, .donttitulo, .whentitulo, .happiertitulo, .tituloguitar, .clipestitulo {
+    .textotitulo, .donttitulo, .whentitulo, .happiertitulo, .clipestitulo {
         justify-content: center;
     }
 
-    .tituloguitar {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-
-    .mscgs {
-        margin-top: 20px;
-}
 
     .texto {
         margin: 10px;
@@ -269,10 +238,6 @@ body {
 
     .happiertitulo {
         margin-left: 20px;
-    }
-
-    .tituloguitar {
-        margin-right: 20px;
     }
 
     .clipestitulo {
